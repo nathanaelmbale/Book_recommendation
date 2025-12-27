@@ -2,9 +2,18 @@
 
 A machine learning-based book recommendation system that uses collaborative filtering and K-Nearest Neighbors (KNN) algorithm to suggest similar books based on user ratings.
 
-## 🎯 Project Overview
+## Quick Overview
 
-This project implements a book recommendation engine using the Book-Crossings dataset, which contains 1.1 million ratings from 90,000 users on 270,000 books. The system identifies books similar to a given book by analyzing rating patterns across users.
+**Problem:** Recommend relevant books using large-scale, sparse user rating data, where traditional rule-based methods fail to capture user preference patterns.
+
+**Solution:** Built a collaborative filtering recommendation engine using K-Nearest Neighbors with cosine distance, leveraging a user–book rating matrix and sparse representations to identify similar books based on shared rating behavior.
+
+**Impact:** Successfully generated meaningful book recommendations with similarity scores using 1.1 million ratings, demonstrating applied knowledge of recommender systems, distance-based learning, and data preprocessing for real-world scale datasets.
+
+**Completed Project:**  
+```
+https://colab.research.google.com/drive/1t8mqNEZ9czLAun3leolBdjZPJhWmgTfl?usp=drive_link
+```
 
 ## 🔧 Technologies Used
 
